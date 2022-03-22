@@ -49,20 +49,3 @@ step = 1
 section_of_list = slice(start,end,step)
 
 print (x[section_of_list])
-
-
-def compareList(x,y):
-    if(x==y):
-        return "PASS"
-    else:
-        return "FAIL"
-
-#print(f"Test: {compareList(x,y)}")
-
-num_of_bytes = 10
-a = random.randbytes(num_of_bytes)
-#print(a)
-l = []
-for n in a:
-    l.append  (n)
-#print (l)
